@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  font-family: Avenir;
+  margin: 0;
+}
+
+nav {
+  width: auto;
+  height: 5vh;
+  background-color: #9B9B8C;
+}
+
+.largeDiv {
+  height: 86vh;
+  display: flex;
+
+}
+
+.leftDiv {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+.purpleHeader {
+  color: purple;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 10px;
+
+}
+
+.chooseTracks {
+  width: 35%;
+  height: 7%;
+  align-self: center;
+  background-color: #353526;
+  color: white;
+  border-radius: 5%;
+  font-size: 16px;
+  font-weight: 100;
+
+}
+
+.rightDiv {
+  background-image: url('fadedTrack.jpg');
+  flex: 1.25;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album {
+  width: 175px;
+  height: 175px;
+  margin: 20px;
+}
+
+footer {
+  width: auto;
+  height: 6vh;
+  background-color: #9B9B8C;
+  padding: 10px;
+}
+
+.signature {
+  color: white;
+  margin: 10px;
+  font-weight: 100;
+}
